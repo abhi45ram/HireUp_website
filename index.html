@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HireUp</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="glider.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="mobile-nav">
+        <ul class="menu-items">
+          <li>
+            <a href="#about">About</a>
+          </li>
+
+          <li>
+            <a href="#developers">Our Developers</a>
+          </li>
+
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+
+          
+         
+          
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <nav class="desktop-nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/programming.png" alt="" />
+          </a>
+        </div>
+
+        <div class="menu-icon">
+          <img src="images/MenuIcon.svg" alt="" />
+        </div>
+
+        <ul class="menu-items">
+          <li>
+            <a href="#about" class="active">About</a>
+          </li>
+
+          <li>
+            <a href="#developers">Our Developers</a>
+          </li>
+
+          <li>
+            <a href="#testimonials">Testimonials</a>
+          </li>
+       
+
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+
+          <li>
+              <a href="login.html" class="button login-button">LogIn/</a>
+              <a href="register.html" class="button signup-button">Register</a> 
+          </li>
+          
+          
+        </ul>
+
+        
+      </nav>
+
+      <!-- End of Desktop Navigation -->
+         
+      <header class="hero-container">
+        <div class="left">
+          <p>Welcome To</p>
+          <h1><span class="gt">Hire</span> Up</h1>
+        </div>
+
+      <div class="search-container "style="width:50%;">
+        <form id="searchForm" style="width:75%;">
+          <input  type="text" id="locationInput" placeholder="Location">
+          <input  type="text" id="jobRoleInput" placeholder="Job Role">
+          <button type="submit">Search</button>
+        </form>
+      </div>
+        <div id="candidateResults" class="search-results"></div>
+
+        <img class="hero-bg" src="images/HeroBG.svg" alt="" />
+
+        <div class="polygon-container">
+          <img class="polygon" src="images/Polygon.svg" alt="" />
+          <img class="polygon2" src="images/Polygon2.svg" alt="" />
+          <img class="polygon3" src="images/Polygon3.svg" alt="" />
+        </div>
+      </header>
+
+      <!-- End of Hero Section -->
+
+      <div class="brands-section">
+        <h2>Our Past Recruiters</h2>
+
+        <div class="brands-container">
+          <div class="brands-line-1">
+            <img src="images/MicrosoftLogo.png" alt="" />
+            <img src="images/GoogleLogo.png" alt="" />
+            <img src="images/NetflixLogo.png" alt="" />
+          </div>
+
+          <div class="brands-line-2">
+            <img src="images/UnityLogo.png" alt="" />
+            <img src="images/AmazonLogo.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- End of Brands Section -->
+
+      <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="section-content">
+          <div class="about-description">
+            <p>Welcome to our website! We are dedicated to connecting talented developers with the best job opportunities and companies.
+      Our mission is to bridge the gap between students and employers by providing a platform that showcases the skills and expertise of developers while offering a streamlined hiring process for companies.
+      Whether you are a student looking for your dream job or a company seeking top-notch talent, our platform offers a range of features and tools to help you achieve your goals.</p>
+          </div>
+
+          <img src="images/My.png" alt="" />
+        </div>
+      </section>
+
+      <!-- End of About Us Section -->
+
+      <section id="developers" class="developers-section">
+        <h2>Our Developers</h2>
+
+        <div class="developers-gallery">
+          <figure>
+            <img class="hoe"  src="images/Soft1.png" alt="" />
+            <figcaption>
+              <p>Job Role: Developer</p>
+              <p>Location: New York</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="hoe" src="images/Soft2.png" alt="" />
+            <figcaption>
+              <p>Job Role: Designer</p>
+              <p>Location: India</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="hoe"  src="images/Soft3.png" alt="" />
+            <figcaption>
+              <p>Job Role: Engineer</p>
+              <p>Location: London</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="hoe" src="images/Soft4.png" alt="" />
+            <figcaption>
+              <p>Job Role: Data Analyst</p>
+              <p>Location: Delhi</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="hoe"  class="hide" src="images/Soft5.png" alt="" />
+            <figcaption>
+              <p>Job Role: Project Manager</p>
+              <p>Location: Banglore</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="hoe" class="hide" src="images/soft6.png" alt="" />
+            <figcaption>
+              <p>Job Role: Software Engineer</p>
+              <p>Location: Gurgaon</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center;">
+          <a href="#" class="btn cyan">View All</a>
+        </div>
+        
+        
+      </section>
+
+      <!-- End of the Developers Section -->
+    </div>
+
+    <section id="testimonials" class="testimonials-section">
+      <div class="wrapper">
+        <h2>Testimonials</h2>
+
+        <div class="testimonials-container">
+          <div class="testimonials">
+            <div class="testimonial">
+              <div class="slide-container">
+                <div class="content">
+                  <p class="testimonial">"I'm extremely grateful for the opportunities this platform provided. Thanks to "Hire Up", I secured a position at Google as a Software Engineer. Their support and guidance throughout the hiring process were exceptional. I highly recommend this platform to all aspiring developers!"</p>
+                  <div class="name">
+                    <strong>Sejal,</strong> Google
+                  </div>
+                </div>
+
+                <img src="images/Testimonial1.png" alt="" />
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="slide-container">
+                <div class="content">
+                  <p>
+                    "I can't thank "Hire Up" enough for connecting me with my dream job. Their platform enabled me to showcase my skills and stand out among other candidates. Through their guidance, I secured a position at Amazon as a Developer. It's a dream come true!"
+                  </p>
+                  <div class="name">
+                    <strong>Arpit,</strong> Amazon
+                  </div>
+                </div>
+
+                <img src="images/Testimonial2.png" alt="" />
+              </div>
+            </div>
+
+            <div class="testimonial">
+              <div class="slide-container">
+                <div class="content">
+                  <p>
+                    "I owe my career success to "Hire Up". They provided me with invaluable resources and connections that led me to a position at Microsoft as a Data Scientist. The platform's emphasis on hard work and continuous learning truly pays off. I can't recommend it enough!"
+                  </p>
+                  <div class="name"><strong>Sarah,</strong> Microsoft</div>
+                </div>
+
+                <img src="images/Testimonial3.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <span class="slider-prev"
+            ><img src="images/LeftArrow.svg" alt=""
+          /></span>
+
+          <span class="slider-next"
+            ><img src="images/RightArrow.svg" alt=""
+          /></span>
+
+          <div role="tablist" class="dots-container">
+            <div class="dots"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End of Testimonials Section -->
+
+    <div class="wrapper">
+      <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form action="#">
+          <div class="group">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="group">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          <a href="#" class="btn cyan">Send Message</a>
+        </form>
+      </section>
+    </div>
+
+    <!-- End of Contact Section -->
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-container">
+
+          <div class="footer-nav">
+            <h3>Our Students</h3>
+            <ul>
+              <li><a href="#">Mobile Development</a></li>
+              <li><a href="#">Web App Development</a></li>
+              <li><a href="#">Full Stack Development</a></li>
+              <li><a href="#">Android Development</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <h3>About Us</h3>
+            <ul>
+              <li><a href="#">Provide Talent to Companies</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-nav">
+            <h3>Get Social</h3>
+
+            <div class="footer-social">
+              <a href="#">
+                <img src="images/FacebookLogo.png" alt="" />
+              </a>
+
+              <a href="#">
+                <img src="images/InstagramLogo.png" alt="" />
+              </a>
+
+              <a href="#">
+                <img src="images/TwitterLogo.png" alt="" />
+              </a>
+            </div>
+
+            <p>info@abhishek.net</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="copyright">
+        This website was designed by Abhishek Ramgoliyan. &copy; 2023
+      </p>
+    </footer>
+
+    <!-- End of the Footer -->
+
+    <script src="glider.min.js"></script>
+    <script src="glider.min.css"></script>
+    <script>
+      new Glider(document.querySelector(".testimonials"), {
+        slidesToShow: 1,
+        dots: ".dots",
+        arrows: {
+          prev: ".slider-prev",
+          next: ".slider-next",
+        },
+      });
+    </script>
+
+    <script src="main.js"></script>
+    <script src="candidates.js"></script>
+    <script src="register.js"></script>
+    <script src="login.js"></script>
+   
+
+
+  </body>
+</html>
